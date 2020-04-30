@@ -10,7 +10,7 @@ else
 fi
 
 # copy other dot files 
-cp  $HOME/{.zshrc,.profile} .
+cp $HOME/{.zshrc,.profile} .
 
 # Check git status
 gs="$(git status | grep -i "modified")"
