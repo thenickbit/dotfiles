@@ -10,7 +10,10 @@ else
 fi
 
 # copy other dot files 
-cp $HOME/{.zshrc,.profile} .
+cp $HOME/.zshrc .
+cp $HOME/.profile .
+cp $HOME/.alacritty.yml .
+cp $HOME/.config/regolith/i3/config .
 
 # Check git status
 gs="$(git status | grep -i "modified")"
