@@ -13,7 +13,8 @@ fi
 cp $HOME/.zshrc .
 cp $HOME/.profile .
 cp $HOME/.alacritty.yml .
-cp $HOME/.config/regolith/i3/config .
+cp -r $HOME/.config/regolith/ ./config/regolith
+cp -r $HOME/.config/ulauncher/ ./config/ulauncher
 
 # Check git status
 gs="$(git status | grep -i "modified")"
@@ -25,6 +26,6 @@ if [[ $gs == *"modified"* ]]; then
 fi
 
 # push to Github
-git add -u;
+git add -A;
 git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
 git push origin master
