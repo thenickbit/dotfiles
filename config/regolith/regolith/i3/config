@@ -529,3 +529,6 @@ exec --no-startup-id $i3-wm.program.3
 # exec --no-startup-id $i3-wm.program.compositor
 
 exec /usr/local/bin/compton --backend glx --blur-method kawase --blur-background --blur-strength 20
+# exec ~/.config/polybar/launch.sh
+
+# set border_radius 10
