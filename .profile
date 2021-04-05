@@ -37,3 +37,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
+export ANDROID_HOME=$HOME/Android/Sdk
