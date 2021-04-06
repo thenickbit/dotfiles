@@ -13,8 +13,7 @@ fi
 cp $HOME/.zshrc .
 cp $HOME/.profile .
 cp $HOME/.alacritty.yml .
-cp -r $HOME/.config/regolith/ ./config/regolith
-cp -r $HOME/.config/ulauncher/ ./config/ulauncher
+cp -r $HOME/.config/regolith/ .
 
 # Check git status
 gs="$(git status | grep -i "modified")"
