@@ -47,9 +47,9 @@ set_from_resource $alt  i3-wm.alt Mod1
 # These are the labels which define each i3 workspace.
 ###############################################################################
 
-set_from_resource $ws1  i3-wm.workspace.01.name "1"
-set_from_resource $ws2  i3-wm.workspace.02.name "2"
-set_from_resource $ws3  i3-wm.workspace.03.name "3"
+set_from_resource $ws1  i3-wm.workspace.01.name "Chrome"
+set_from_resource $ws2  i3-wm.workspace.02.name "Terminal"
+set_from_resource $ws3  i3-wm.workspace.03.name "Code"
 set_from_resource $ws4  i3-wm.workspace.04.name "4"
 set_from_resource $ws5  i3-wm.workspace.05.name "5"
 set_from_resource $ws6  i3-wm.workspace.06.name "6"
@@ -530,5 +530,9 @@ exec --no-startup-id $i3-wm.program.3
 
 exec /usr/local/bin/compton --backend glx --blur-method kawase --blur-background --blur-strength 20
 # exec ~/.config/polybar/launch.sh
+
+# exec --no-startup-id i3-msg "workspace $ws1 exec google-chrome"
+# exec --no-startup-id i3-msg "workspace $ws2 exec alacritty"
+# exec --no-startup-id i3-msg "workspace $ws3 exec code"
 
 # set border_radius 10

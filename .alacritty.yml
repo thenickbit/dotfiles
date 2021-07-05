@@ -92,7 +92,7 @@ font:
   normal:
     family: Fira code
     # Style can be specified to pick a specific face.
-    style: Regular
+    style: Bold
 
   # The bold font face
   bold:

@@ -28,7 +28,6 @@ fi
 
 export PATH="$PATH:/usr/local/flutter/bin"
 export PATH="$PATH:/usr/lib/dart/bin"
-export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:/usr/local/fff/"
 
 export GOROOT=/usr/local/go
@@ -38,3 +37,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 export ANDROID_HOME=$HOME/Android/Sdk
+. "$HOME/.cargo/env"
