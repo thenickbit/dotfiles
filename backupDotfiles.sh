@@ -29,10 +29,3 @@ fi
 git add -A;
 git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
 git push origin master;
-
-# remove all files from dir
-rm .zshrc
-rm .profile
-rm .alacritty.yml
-rm picom.conf
-rm -rf regolith
