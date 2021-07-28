@@ -13,6 +13,7 @@ fi
 cp $HOME/.zshrc .
 cp $HOME/.profile .
 cp $HOME/.alacritty.yml .
+cp $HOME/.config/picom.conf .
 cp -r $HOME/.config/regolith/ .
 
 # Check git status
@@ -33,4 +34,5 @@ git push origin master;
 rm .zshrc
 rm .profile
 rm .alacritty.yml
+rm picom.conf
 rm -rf regolith

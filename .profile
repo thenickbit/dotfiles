@@ -27,3 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export PATH="$PATH:/usr/local/flutter/bin"
+export PATH="$PATH:/home/nchartiot/.local/bin"

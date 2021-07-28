@@ -530,8 +530,9 @@ exec --no-startup-id $i3-wm.program.3
 
 
 # --- Start third party compositor
+exec /usr/local/bin/picom --experimental-backends
 # exec /usr/bin/compton --backend glx --blur-method kawase --blur-background --blur-strength 20
-exec /usr/bin/picom --blur-background --backend glx --vsync --blur-size 20 --blur-method box --experimental-backends
+# exec /usr/bin/picom --blur-background --backend glx --vsync --blur-size 20 --blur-method box --experimental-backends
 # exec ~/.config/polybar/launch.sh
 
 # exec --no-startup-id i3-msg "workspace $ws1 exec google-chrome"
