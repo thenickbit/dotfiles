@@ -15,8 +15,9 @@ if git diff --cached --quiet; then
   exit 0
 fi
 
-# Commit changes with a timestamp
-commit_message="Update dotfiles: $(date)"
+commit_message="Update dotfiles: $(date '+%d/%m, %H:%M:%S, %Z')"
+
+# Commit changes
 git commit -m "$commit_message"
 
 # Push changes to the remote repository
