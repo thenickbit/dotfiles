@@ -15,7 +15,8 @@ if git diff --cached --quiet; then
   exit 0
 fi
 
-commit_message="Update dotfiles: $(date '+%d/%m, %H:%M:%S, %Z')"
+# commit_message="Update dotfiles: $(date '+%d/%m, %H:%M:%S, %Z')"
+commit_message="Update dotfiles"
 
 # Commit changes
 git commit -m "$commit_message"
