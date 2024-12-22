@@ -110,3 +110,5 @@ source $ZSH/oh-my-zsh.sh
 alias cursor="cursor --ozone-platform=wayland"
 alias yeet="yay -Rns"
 eval "$(fnm env --use-on-cd --shell zsh)"
+
+PATH=~/.console-ninja/.bin:$PATH
