@@ -107,7 +107,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias cursor="cursor --ozone-platform=wayland"
 alias yeet="yay -Rns"
 eval "$(fnm env --use-on-cd --shell zsh)"
 
